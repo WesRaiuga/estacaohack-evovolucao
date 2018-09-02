@@ -269,17 +269,15 @@ footer p{
 
 #content-1{
     padding: 20px;
-    position: absolute;
-    width: 99vw;
 }
 
 #content-2{
     padding: 20px;
-    position: absolute;
     display: none;
 }
 
 #content-3{
     padding: 20px;
+    /* position: absolute; */
     display: none;
 }
