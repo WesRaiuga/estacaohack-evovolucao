@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-top: 20px;
+    color: #304050;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(48, 64, 80, 0.950);
+    position: fixed;
+    top: 0;
+    width: 99vw;
+}
+
+#logo{
+    height: 50px;
+    width: 175px;
+    padding: 10px;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+/* BANNER */
+#banner{
+    margin-top: 70px;
+    background-color: #304050;
+}
+
+#img-banner{
+    width: 100%;
+    height: 100vh;
+}
+
+#txt-header{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: #304050;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 90px 20px 20px 20px;
+    padding: 10px;
+    position: absolute;
+}
+
+#txt-header p{
+    margin: 0;
+}
+
+/* MÓDULOS */
+#modulos{
+    background-color: rgb(240, 240, 240);
+    padding: 0 200px;
+    padding-bottom: 20px;
+}
+
+.mod{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.esq img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #304050;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.esq p, .dir p{
+    padding: 0 30px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.dir img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #304050;
+    box-shadow: -5px 5px 5px grey;
+}
+
+/* ASK */
+#ask p{
+    font-weight: bolder;
+    font-size: 30pt;
+    padding: 30px 80px;
+    text-transform: uppercase;
+    color: #304050;
+}
+
+/* SOBRE NÓS */
+#info{
+    display: flex;
+    padding-bottom: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+#sobre-nos{
+    width: 60%;
+}
+
+#caixa{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-mim{
+    width: 170px;
+    padding: 0 10px;
+    text-align: center;
+    color: #304050;
+}
+
+.sobre-mim img{
+    height: 80px;
+    width: 80px;
+    border: 3px solid #304050;
+    border-radius: 50%;
+}
+
+.sobre-mim h3{
+    margin: 10px 0;
+}
+
+.sobre-mim p{
+    margin: 0;
+    text-align: left;
+}
+
+/* FALE CONOSCO */
+#fale-conosco{
+    width: 40%;
+}
+
+#form-f{
+    padding: 0 20px;
+}
+
+.grupo-form{
+    padding: 10px;
+}
+
+.grupo-form label{
+    font-weight: bolder;
+    color: #304050;
+    margin-bottom: 10px;
+}
+
+.grupo-form input{
+    width: 400px;
+    height: 20px;
+    border: 1px solid #304050;
+}
+
+#f-msg{
+    width: 400px;
+    resize: vertical;
+    border: 1px solid #304050;
+}
+
+#f-enviar{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #304050;
+    color: white;
+    font-size: 15pt;
+}
+
+/* FOOTER */
+footer{
+    background-color: #304050;
+    color: white;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
