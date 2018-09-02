@@ -137,10 +137,27 @@ nav a:hover{
 }
 
 .sobre-mim img{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     border: 3px solid #304050;
     border-radius: 50%;
+}
+
+.mask-foto{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3040506c;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #304050;
+    margin-top: 2px;
+    margin-left: 39px;
+}
+
+.mask-foto:hover{
+    background-color: transparent;
+    transition: 0.5s;
 }
 
 .sobre-mim h3{
